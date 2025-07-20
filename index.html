@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>АВТО-МИР</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="splash-screen" id="splash">
+    <div class="logo-anim">
+      <img src="logo.png" alt="Авто-Мир" class="logo-img" />
+    </div>
+    <h1 class="brand-title"><span>АВТО-</span><span class="red">МИР</span></h1>
+    <button class="enter-btn" id="enterBtn">ПЕРЕЙТИ</button>
+  </div>
+  <div class="main-content" id="mainContent">
+    <header class="main-header">
+      <h2>Выбери авто вместе с AVTOMIR</h2>
+    </header>
+    <section class="brands-section">
+      <div class="section-title">Выберите марку авто</div>
+      <div class="brands-list" id="brandsList">
+        <div class="brand-card" data-brand="VAZ"><img src="vazlogo.png" alt="VAZ"><span>VAZ</span></div>
+      </div>
+    </section>
+    <section class="cars-section" id="carsSection">
+      <!-- Карточки авто будут добавляться скриптом -->
+    </section>
+  </div>
+  <section class="car-detail" id="carDetail">
+    <div class="detail-header">
+      <button class="back-btn" id="backBtn">←</button>
+      <h3>Детали автомобиля</h3>
+    </div>
+    <div class="detail-content">
+      <div class="car-image">
+        <img src="vaz2110.png" alt="ВАЗ 2110">
+      </div>
+      <div class="car-title-section">
+        <h2>ВАЗ 2110</h2>
+        <div class="car-year">2005 год</div>
+        <div class="car-price">310.000₽</div>
+      </div>
+      <div class="car-stats-grid">
+        <div class="stat-item">
+          <div class="stat-icon">🔧</div>
+          <div class="stat-title">Тех. состояние</div>
+          <div class="stat-value">Отличное</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">🛡️</div>
+          <div class="stat-title">Двигатель</div>
+          <div class="stat-value">1.6 16V</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">⛽</div>
+          <div class="stat-title">Расход масла</div>
+          <div class="stat-value">Не расходует</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">🔧</div>
+          <div class="stat-title">Гидрики</div>
+          <div class="stat-value">Не стучат</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">🚗</div>
+          <div class="stat-title">Ходовая</div>
+          <div class="stat-value">Без нареканий</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">🛠️</div>
+          <div class="stat-title">Кузов</div>
+          <div class="stat-value">Без гнили</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="main.js"></script>
+</body>
+</html> 
